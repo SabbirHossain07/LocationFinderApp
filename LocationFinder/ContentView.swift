@@ -2,15 +2,17 @@
 //  ContentView.swift
 //  LocationFinder
 //
-//  Created by Sopnil Sohan on 22/4/22.
+//  Created by sabbir_iosdev on 22/4/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            SearchView()
+                .navigationBarHidden(true)
+        }
     }
 }
 
